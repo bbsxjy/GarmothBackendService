@@ -57,7 +57,7 @@ public class SimpleTestController {
                                         Map.of(
                                                 "position", "previous",
                                                 "title", "上一个Boss",
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/kzarka.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/kzarka.png",
                                                 "imgAlt", "kzarka",
                                                 "time", "1724920574",
                                                 "bossName", "科扎卡",
@@ -66,7 +66,7 @@ public class SimpleTestController {
                                         Map.of(
                                                 "position", "next",
                                                 "title", "下一个Boss",
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/garmoth.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/garmoth.png",
                                                 "imgAlt", "garmoth",
                                                 "time", "1724920574",
                                                 "bossName", "卡莫斯",
@@ -75,7 +75,7 @@ public class SimpleTestController {
                                         Map.of(
                                                 "position", "upcoming",
                                                 "title", "接下来是",
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/karanda.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/karanda.png",
                                                 "imgAlt", "karanda",
                                                 "time", "1724920574",
                                                 "bossName", "卡兰达",
@@ -87,55 +87,55 @@ public class SimpleTestController {
                                 "type", "settings",
                                 "bossIcons", List.of(
                                         Map.of(
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/garmoth.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/garmoth.png",
                                                 "imgAlt", "garmoth",
                                                 "borderColor", "green",
                                                 "className", "cursor-pointer overflow-hidden rounded-full border-2 border-500 bg-800 outline-2 outline outline-green hover:border-green"
                                         ),
                                         Map.of(
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/karanda.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/karanda.png",
                                                 "imgAlt", "karanda",
                                                 "borderColor", "green",
                                                 "className", "cursor-pointer overflow-hidden rounded-full border-2 border-500 bg-800 outline-2 outline outline-green hover:border-green"
                                         ),
                                         Map.of(
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/kutum.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/kutum.png",
                                                 "imgAlt", "kutum",
                                                 "borderColor", "green",
                                                 "className", "cursor-pointer overflow-hidden rounded-full border-2 border-500 bg-800 outline-2 outline outline-green hover:border-green"
                                         ),
                                         Map.of(
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/kzarka.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/kzarka.png",
                                                 "imgAlt", "kzarka",
                                                 "borderColor", "green",
                                                 "className", "cursor-pointer overflow-hidden rounded-full border-2 border-500 bg-800 outline-2 outline outline-green hover:border-green"
                                         ),
                                         Map.of(
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/nouver.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/nouver.png",
                                                 "imgAlt", "nouver",
                                                 "borderColor", "green",
                                                 "className", "cursor-pointer overflow-hidden rounded-full border-2 border-500 bg-800 outline-2 outline outline-green hover:border-green"
                                         ),
                                         Map.of(
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/quint.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/quint.png",
                                                 "imgAlt", "quint",
                                                 "borderColor", "400",
                                                 "className", "cursor-pointer overflow-hidden rounded-full border-2 border-500 bg-800 outline-2 opacity-75 hover:border-400"
                                         ),
                                         Map.of(
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/muraka.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/muraka.png",
                                                 "imgAlt", "muraka",
                                                 "borderColor", "400",
                                                 "className", "cursor-pointer overflow-hidden rounded-full border-2 border-500 bg-800 outline-2 opacity-75 hover:border-400"
                                         ),
                                         Map.of(
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/offin.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/offin.png",
                                                 "imgAlt", "offin",
                                                 "borderColor", "400",
                                                 "className", "cursor-pointer overflow-hidden rounded-full border-2 border-500 bg-800 outline-2 opacity-75 hover:border-400"
                                         ),
                                         Map.of(
-                                                "imgSrc", "https://assets.garmoth.com/boss/large/vell.webp",
+                                                "imgSrc", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/vell.png",
                                                 "imgAlt", "vell",
                                                 "borderColor", "green",
                                                 "className", "cursor-pointer overflow-hidden rounded-full border-2 border-500 bg-800 outline-2 outline outline-green hover:border-green"
@@ -322,47 +322,47 @@ public class SimpleTestController {
     public List<Map<String, Object>> getBossImages() {
         return List.of(
                 Map.of(
-                        "src", "https://assets.garmoth.com/boss/large/nouver.webp",
+                        "src", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/nouver.png",
                         "alt", "nouver",
                         "name", "罗裴勒"
                 ),
                 Map.of(
-                        "src", "https://assets.garmoth.com/boss/large/garmoth.webp",
+                        "src", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/garmoth.png",
                         "alt", "garmoth",
                         "name", "卡莫斯"
                 ),
                 Map.of(
-                        "src", "https://assets.garmoth.com/boss/large/kutum.webp",
+                        "src", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/kutum.png",
                         "alt", "kutum",
                         "name", "库屯"
                 ),
                 Map.of(
-                        "src", "https://assets.garmoth.com/boss/large/offin.webp",
+                        "src", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/offin.png",
                         "alt", "offin",
                         "name", "奥平"
                 ),
                 Map.of(
-                        "src", "https://assets.garmoth.com/boss/large/vell.webp",
+                        "src", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/vell.png",
                         "alt", "vell",
                         "name", "贝尔"
                 ),
                 Map.of(
-                        "src", "https://assets.garmoth.com/boss/large/karanda.webp",
+                        "src", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/karanda.png",
                         "alt", "karanda",
                         "name", "卡岚达"
                 ),
                 Map.of(
-                        "src", "https://assets.garmoth.com/boss/large/kzarka.webp",
+                        "src", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/kzarka.png",
                         "alt", "kzarka",
-                        "name", "柯价卡"
+                        "name", "柯扎卡"
                 ),
                 Map.of(
-                        "src", "https://assets.garmoth.com/boss/large/quint.webp",
+                        "src", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/quint.png",
                         "alt", "quint",
                         "name", "肯恩特"
                 ),
                 Map.of(
-                        "src", "https://assets.garmoth.com/boss/large/muraka.webp",
+                        "src", "https://garmoth-assets.oss-cn-shanghai.aliyuncs.com/Productions/boss-timer/muraka.png",
                         "alt", "muraka",
                         "name", "穆拉卡"
                 )
