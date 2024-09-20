@@ -163,7 +163,7 @@ public class SimpleTestController {
                         ),
                         "Saturday", List.of(
                         ),
-                        "周日", List.of(
+                        "Sunday", List.of(
                         )
                 ),
                 Map.of(
@@ -184,7 +184,7 @@ public class SimpleTestController {
                         "Saturday", List.of(
                                 Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
                         ),
-                        "周日", List.of(
+                        "Sunday", List.of(
                                 Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
                         )
                 ),
@@ -208,7 +208,7 @@ public class SimpleTestController {
                         "Saturday", List.of(
                                 Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
                         ),
-                        "周日", List.of(
+                        "Sunday", List.of(
                                 Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
                         )
                 ),
@@ -226,7 +226,7 @@ public class SimpleTestController {
                         ),
                         "Saturday", List.of(
                         ),
-                        "周日", List.of(
+                        "Sunday", List.of(
                         )
                 ),
                 Map.of(
@@ -249,7 +249,7 @@ public class SimpleTestController {
                         "Saturday", List.of(
 
                         ),
-                        "周日", List.of(
+                        "Sunday", List.of(
 
                         )
                 ),
@@ -273,7 +273,7 @@ public class SimpleTestController {
                         "Saturday", List.of(
                                 Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
                         ),
-                        "周日", List.of(
+                        "Sunday", List.of(
                                 Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
                         )
                 ),
