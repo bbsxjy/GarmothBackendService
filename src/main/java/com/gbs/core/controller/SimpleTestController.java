@@ -10,7 +10,7 @@ import java.util.Map;
 
 @Log4j2
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/v1")
 public class SimpleTestController {
 
     @GetMapping("/topMenu")
