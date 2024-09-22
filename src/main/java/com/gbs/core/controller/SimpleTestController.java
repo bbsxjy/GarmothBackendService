@@ -169,23 +169,29 @@ public class SimpleTestController {
                 Map.of(
                         "time", "02:00",
                         "Monday", List.of(
-                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
+                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1),
+                                Map.of("name", "库屯", "color", "purple", "opacity", 1)
                         ),
                         "Tuesday", List.of(
+                                Map.of("name", "罗裴勒", "color", "orange", "opacity", 1)
                         ),
                         "Wednesday", List.of(
                                 Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
                         ),
                         "Thursday", List.of(
+                                Map.of("name", "库屯", "color", "purple", "opacity", 1)
                         ),
                         "Friday", List.of(
-                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
+                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1),
+                                Map.of("name", "罗裴勒", "color", "orange", "opacity", 1)
                         ),
                         "Saturday", List.of(
-                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
+                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1),
+                                Map.of("name", "库屯", "color", "purple", "opacity", 1)
                         ),
                         "Sunday", List.of(
-                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
+                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1),
+                                Map.of("name", "罗裴勒", "color", "orange", "opacity", 1)
                         )
                 ),
                 Map.of(
@@ -194,22 +200,26 @@ public class SimpleTestController {
                                 Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
                         ),
                         "Tuesday", List.of(
-                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
+                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1),
+                                Map.of("name", "库屯", "color", "purple", "opacity", 1)
                         ),
                         "Wednesday", List.of(
                                 Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
                         ),
                         "Thursday", List.of(
-                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
+                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1),
+                                Map.of("name", "库屯", "color", "purple", "opacity", 1)
                         ),
                         "Friday", List.of(
-
+                                Map.of("name", "库屯", "color", "purple", "opacity", 1)
                         ),
                         "Saturday", List.of(
-                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
+                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1),
+                                Map.of("name", "库屯", "color", "purple", "opacity", 1)
                         ),
                         "Sunday", List.of(
-                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
+                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1),
+                                Map.of("name", "罗裴勒", "color", "orange", "opacity", 1)
                         )
                 ),
                 Map.of(
@@ -232,19 +242,23 @@ public class SimpleTestController {
                 Map.of(
                         "time", "15:00",
                         "Monday", List.of(
-                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
+                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1),
+                                Map.of("name", "库屯", "color", "purple", "opacity", 1)
                         ),
                         "Tuesday", List.of(
-                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
+                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1),
+                                Map.of("name", "罗裴勒", "color", "orange", "opacity", 1)
                         ),
                         "Wednesday", List.of(
 
                         ),
                         "Thursday", List.of(
-                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
+                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1),
+                                Map.of("name", "罗裴勒", "color", "orange", "opacity", 1)
                         ),
                         "Friday", List.of(
-                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
+                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1),
+                                Map.of("name", "罗裴勒", "color", "orange", "opacity", 1)
                         ),
                         "Saturday", List.of(
 
@@ -265,13 +279,15 @@ public class SimpleTestController {
                                 Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
                         ),
                         "Thursday", List.of(
-
+                                Map.of("name", "罗裴勒", "color", "orange", "opacity", 1)
                         ),
                         "Friday", List.of(
-                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
+                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1),
+                                Map.of("name", "库屯", "color", "purple", "opacity", 1)
                         ),
                         "Saturday", List.of(
-                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
+                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1),
+                                Map.of("name", "罗裴勒", "color", "orange", "opacity", 1)
                         ),
                         "Sunday", List.of(
                                 Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
@@ -297,16 +313,19 @@ public class SimpleTestController {
                 Map.of(
                         "time", "23:30",
                         "Monday", List.of(
-                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
+                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1),
+                                Map.of("name", "库屯", "color", "purple", "opacity", 1)
                         ),
                         "Tuesday", List.of(
-                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1)
+                                Map.of("name", "柯扎卡", "color", "red", "opacity", 1),
+                                Map.of("name", "罗裴勒", "color", "orange", "opacity", 1)
                         ),
                         "Wednesday", List.of(
                                 Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
                         ),
                         "Thursday", List.of(
-                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1)
+                                Map.of("name", "卡岚达", "color", "blue", "opacity", 1),
+                                Map.of("name", "库屯", "color", "purple", "opacity", 1)
                         ),
                         "Friday", List.of(
                         ),
