@@ -23,11 +23,10 @@ public class SimpleTestController {
                         "imgAlt", "卡普拉石计算器图标"
                 ),
                 Map.of(
-                        "path", "/#",
-                        "label", "【即将推出】推荐刷怪点",
+                        "path", "/grind-tracker/best-grind-spots",
+                        "label", "推荐刷怪点",
                         "imgSrc", "https://assets.garmoth.com/icons/menu/best-grind-spots.png",
-                        "imgAlt", "推荐刷怪点图标",
-                        "disabled", "true"
+                        "imgAlt", "推荐刷怪点图标"
                 ),
                 Map.of(
                         "path", "/#",
@@ -387,5 +386,731 @@ public class SimpleTestController {
                 )
         );
     }
+
+    @GetMapping("/grindTrackBestSpot")
+    public List<Map<String, Object>> getGrindTrackBestSpot() {
+        return List.of(
+                Map.of(
+                        "href", "/grind-tracker/global/1",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044380.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "希克莱亚海底遗迹(深层)",
+                        "AP", "240攻",
+                        "DP", "330防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044380.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/16_ring/00012061.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044383.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044268.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "5.03亿",
+                        "rating", 2
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/37",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044378.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "普罗提洞穴",
+                        "AP", "170攻",
+                        "DP", "200防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044378.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/16_ring/00012061.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/16_ring/00012045.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044383.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "4.62亿",
+                        "rating", 2
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/90",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044215.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "半人马群落",
+                        "AP", "180攻",
+                        "DP", "200防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044215.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/18_belt/00012229.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "3.57亿",
+                        "rating", 1
+                ),
+                // 继续添加剩余的数据项
+                Map.of(
+                        "href", "/grind-tracker/global/83",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044217.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "狄狄恩溪谷",
+                        "AP", "100攻",
+                        "DP", "180防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044217.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011628.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "3.49亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/85",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044218.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "新月神殿",
+                        "AP", "140攻",
+                        "DP", "160防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044218.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/16_ring/00012031.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "3.45亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/86",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044214.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "卡德里废墟",
+                        "AP", "140攻",
+                        "DP", "160防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044214.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/16_ring/00012032.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011628.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "3.42亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/6",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044266.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "亚克曼",
+                        "AP", "230攻",
+                        "DP", "300防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044266.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/17_earring/00011828.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "3.38亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/11",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044446.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "被遗弃修道院（禁域）",
+                        "AP", "260攻",
+                        "DP", "350防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044446.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/17_earring/00011855.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "3.23亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/3",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044267.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "赫斯特里亚废墟",
+                        "AP", "230攻",
+                        "DP", "300防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044267.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/17_earring/00011828.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011629.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "3.20亿",
+                        "rating", 1
+                ),
+                // 继续在您的方法中添加剩余的数据项
+                Map.of(
+                        "href", "/grind-tracker/global/43",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044220.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "伽哈兹猎者团巢穴",
+                        "AP", "140攻",
+                        "DP", "180防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044220.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011628.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "2.87亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/82",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044219.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "沙漠纳迦圣殿",
+                        "AP", "100攻",
+                        "DP", "180防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044219.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011628.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "2.75亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/84",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044212.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "巴西恩族营地",
+                        "AP", "100攻",
+                        "DP", "180防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044212.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "2.65亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/32",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044382.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "希克莱亚海底遗迹(上层)",
+                        "AP", "200攻",
+                        "DP", "260防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044382.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/16_ring/00012061.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044383.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044268.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "2.61亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/92",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044265.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "匹拉·酷监狱",
+                        "AP", "190攻",
+                        "DP", "240防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044265.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011625.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "1.85亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/91",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044264.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "路德硫磺矿山",
+                        "AP", "190攻",
+                        "DP", "240防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044264.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011625.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/09_upperbody/00014082.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "1.77亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/34",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044180.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "秀兹近卫队",
+                        "AP", "210攻",
+                        "DP", "320防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044180.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011631.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "1.33亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/88",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044216.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "沃拉坤巢穴",
+                        "AP", "150攻",
+                        "DP", "220防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044216.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011628.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "0.90亿",
+                        "rating", 1
+                ),
+                Map.of(
+                        "href", "/grind-tracker/global/89",
+                        "className", "opacity-100 flex cursor-pointer flex-col gap-3 rounded-md border border-600 bg-700 p-1 transition-all hover:border-500 hover:brightness-110 lg:flex-row",
+                        "mainImage", Map.of(
+                                "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044213.webp",
+                                "loading", "lazy",
+                                "lazy", "lazy",
+                                "alt", "",
+                                "className", "item-icon size-10"
+                        ),
+                        "title", "蛇怪巢穴",
+                        "AP", "180攻",
+                        "DP", "220防",
+                        "secondaryImages", List.of(
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044213.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-10"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/18_belt/00012230.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                ),
+                                Map.of(
+                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
+                                        "loading", "lazy",
+                                        "lazy", "lazy",
+                                        "alt", "",
+                                        "className", "item-icon size-8"
+                                )
+                        ),
+                        "price", "0.57亿",
+                        "rating", 1
+                )
+
+        );
+    }
+
 
 }
