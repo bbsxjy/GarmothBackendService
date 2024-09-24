@@ -405,13 +405,6 @@ public class SimpleTestController {
                         "DP", "330防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044380.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/16_ring/00012061.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -450,13 +443,6 @@ public class SimpleTestController {
                         "AP", "170攻",
                         "DP", "200防",
                         "secondaryImages", List.of(
-                                Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044378.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
                                 Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/16_ring/00012061.webp",
                                         "loading", "lazy",
@@ -504,13 +490,6 @@ public class SimpleTestController {
                         "DP", "200防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044215.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/18_belt/00012229.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -544,13 +523,6 @@ public class SimpleTestController {
                         "DP", "180防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044217.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011628.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -583,13 +555,6 @@ public class SimpleTestController {
                         "DP", "160防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044218.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/16_ring/00012031.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -621,13 +586,6 @@ public class SimpleTestController {
                         "AP", "140攻",
                         "DP", "160防",
                         "secondaryImages", List.of(
-                                Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044214.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
                                 Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/16_ring/00012032.webp",
                                         "loading", "lazy",
@@ -668,13 +626,6 @@ public class SimpleTestController {
                         "DP", "300防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044266.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/17_earring/00011828.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -700,13 +651,6 @@ public class SimpleTestController {
                         "DP", "350防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044446.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/17_earring/00011855.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -731,13 +675,6 @@ public class SimpleTestController {
                         "AP", "230攻",
                         "DP", "300防",
                         "secondaryImages", List.of(
-                                Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044267.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
                                 Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/17_earring/00011828.webp",
                                         "loading", "lazy",
@@ -772,13 +709,6 @@ public class SimpleTestController {
                         "DP", "180防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044220.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011628.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -810,13 +740,6 @@ public class SimpleTestController {
                         "AP", "100攻",
                         "DP", "180防",
                         "secondaryImages", List.of(
-                                Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044219.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
                                 Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011628.webp",
                                         "loading", "lazy",
@@ -850,13 +773,6 @@ public class SimpleTestController {
                         "DP", "180防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044212.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040351.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -881,13 +797,6 @@ public class SimpleTestController {
                         "AP", "200攻",
                         "DP", "260防",
                         "secondaryImages", List.of(
-                                Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044382.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
                                 Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/16_ring/00012061.webp",
                                         "loading", "lazy",
@@ -935,13 +844,6 @@ public class SimpleTestController {
                         "DP", "240防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044265.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011625.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -973,13 +875,6 @@ public class SimpleTestController {
                         "AP", "190攻",
                         "DP", "240防",
                         "secondaryImages", List.of(
-                                Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044264.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
                                 Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011625.webp",
                                         "loading", "lazy",
@@ -1020,13 +915,6 @@ public class SimpleTestController {
                         "DP", "320防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044180.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011631.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -1052,13 +940,6 @@ public class SimpleTestController {
                         "DP", "220防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044216.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/15_necklace/00011628.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -1083,13 +964,6 @@ public class SimpleTestController {
                         "AP", "180攻",
                         "DP", "220防",
                         "secondaryImages", List.of(
-                                Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044213.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
                                 Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/06_pc_equipitem/00_common/18_belt/00012230.webp",
                                         "loading", "lazy",
