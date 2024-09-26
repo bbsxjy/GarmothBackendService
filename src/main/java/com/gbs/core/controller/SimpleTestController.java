@@ -829,13 +829,6 @@ public class SimpleTestController {
                         "DP", "270防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044323.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/03_etc/03_quest_item/00040758.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -942,13 +935,6 @@ public class SimpleTestController {
                         "DP", "250防",
                         "secondaryImages", List.of(
                                 Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044322.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
-                                Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/03_etc/11_enchant_material/00721044.webp",
                                         "loading", "lazy",
                                         "lazy", "lazy",
@@ -987,13 +973,6 @@ public class SimpleTestController {
                         "AP", "250攻",
                         "DP", "320防",
                         "secondaryImages", List.of(
-                                Map.of(
-                                        "src", "https://assets.garmoth.com/img/new_icon/03_etc/04_dropitem/00044324.webp",
-                                        "loading", "lazy",
-                                        "lazy", "lazy",
-                                        "alt", "",
-                                        "className", "item-icon size-10"
-                                ),
                                 Map.of(
                                         "src", "https://assets.garmoth.com/img/new_icon/03_etc/07_productmaterial/00004917.webp",
                                         "loading", "lazy",
