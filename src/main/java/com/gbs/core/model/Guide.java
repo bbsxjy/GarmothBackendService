@@ -26,4 +26,5 @@ public class Guide {
     private String avatar;
     private String published_at;
     private String modified_at;
+    private boolean listing;
 }
